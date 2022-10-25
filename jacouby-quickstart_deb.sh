@@ -1,6 +1,6 @@
-curl -fsSL https://deb.nodesource.com/setup_18.x | bash - &&\
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo bash - &&\
 
-apt install wget nano nodejs python3 python-is-python3 python-dev-is-python3 -y
+sudo apt install wget nano nodejs python3 python-is-python3 python-dev-is-python3 -y
 
 pip install fastapi aiohttp requests 
 
